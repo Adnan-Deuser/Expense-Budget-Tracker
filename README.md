@@ -1,36 +1,20 @@
-# 🧾 Expense & Budget Tracker (Tkinter + CSV + Matplotlib)
+# Expense & Budget Tracker
 
-This is a simple yet functional Expense & Budget Tracker built using Python’s Tkinter library. It allows users to set a monthly budget, add expenses with categories and notes, and visualize the spending data through reports and pie charts.
+### Expense & Budget Tracker
+A GUI-based Expense & Budget Tracker built with Python.  
+It helps users track their daily expenses, set monthly budgets, and visualize spending patterns — all through a clean and simple interface.
 
-## ✨ Features
 
-- Set and manage your **monthly budget**
-- Add **categorized expenses** with notes
-- Automatically saves data to a CSV file
-- View detailed **expense reports**
-- Generate **category-wise pie charts** using `matplotlib`
-- Simple and clean **Tkinter GUI**
+### Project Overview
+This project is a personal finance tracker designed to help individuals:
+- Log daily expenses by category
+- Set and monitor monthly budgets
+- Get insights with weekly/monthly reports
+- View category-wise expense breakdowns
+- Generate visual reports using pie charts
 
-## 📦 Requirements
-
-- Python 3.x
-- matplotlib
-
-You can install the required library via:
-
-```bash
-pip install matplotlib
-```
-## Getting Started
-1. Clone this repository or download the .py file.
-2. Run the script:<br>
-`python budget_tracker.py`
-3. The GUI window will open. From there, you can:<br>
-* Set your monthly budget
-* Add expense entries
-* View a report of your expenses
-* Visualize your expenses in a pie chart
-
-## 📁 Data Storage
-**All expenses are saved in data.csv in the same folder.<br>
-If the file does not exist, it will be automatically created with proper headers.**
+### Built With
+- Python 3
+- Tkinter— for GUI
+- CSV — for simple local data storage
+- Matplotlib — for visualizing expenses
